@@ -1,3 +1,4 @@
+% J is the cost and grad is the gradient
 function [J, grad] = costFunctionReg(theta, X, y, lambda)
 
 m = length(y);
